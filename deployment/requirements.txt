@@ -1,0 +1,10 @@
+pandas
+numpy
+tensorflow
+re
+nltk
+tensorflow_hub
+tensorflow.keras.models
+string
+streamlit
+matplotlib.pyplot
