@@ -1,31 +1,42 @@
-# DJIA News Sentiment Analysis
+# 📰 DJIA News Sentiment Analysis
 
-## Repository Outline
-```
-1. README.md - Project Overview
-2. notebook.ipynb - Notebook for build model
-3. inference_notebook.ipynb - Notebook for inferencing/predicting new data
-4. djia_news.csv - Dataset for training model
-5. new_data.csv - New data which will be predicted
-6. Deployment - Python script for deployment
-```
+> **A deep learning-based Natural Language Processing (NLP) model designed to classify financial news sentiment and capture market signals.**
 
-## Problem Background
-Stock price is influenced by many factors. One of the most crucial aspects is public sentiment of stocks. For gaining much money in the stock market, we need to understand the information spreading in trader's minds. One of the most influential source is stock news that we need to catch the signal immediately.
+---
 
-## Project Output
-This pproject is developed for helping traders to understand a lot of news published every minutes. This project will classify news based on their sentiment namely, Positive, Negative and Neutral.
+## 📖 Problem Background
+Stock prices are influenced by a multitude of factors, with public sentiment being one of the most crucial. To maximize returns in the stock market, it is essential to understand the information shaping traders' decisions. One of the most influential sources of this information is financial news, making it vital to catch market signals immediately as they are published.
 
-## Data
-Data is extracted by Finnhub API within 90 days, encompassing headline and summary.
+## 🎯 Project Output
+This project is developed to help traders quickly process and understand the vast amount of news published every minute. The model classifies news articles based on their underlying sentiment into three distinct categories:
+* 🟢 **Positive**
+* 🔴 **Negative**
+* ⚪ **Neutral**
 
-## Method
-This model implement RNN algoritm with and without transfer learning and improvements.
+## 🗂️ Repository Outline
 
-## Stacks
-Language    : Python
-Tools       : Visual Studio Code
+    📦 DJIA-News-Sentiment-Analysis
+     ┣ 📜 README.md                  # Project Overview
+     ┣ 📓 notebook.ipynb             # Notebook for building the model
+     ┣ 📓 inference_notebook.ipynb   # Notebook for inferencing/predicting new data
+     ┣ 📊 djia_news.csv              # Dataset for training the model
+     ┣ 📊 new_data.csv               # New data which will be predicted
+     ┗ 📂 deployment                 # Folder containing Python script for deployment
 
-## Reference
-- Presentation - https://www.canva.com/design/DAHBADencxA/3kFDskseL-g7FHfgjk7s5g/edit?utm_content=DAHBADencxA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
-- Model - https://drive.google.com/file/d/1IbvP8YsYWCVUiCknzNyXxAajjjaFfnMM/view?usp=sharing 
+## 📊 Data
+The dataset was extracted using the **Finnhub API**, covering a 90-day period and encompassing both news headlines and summaries.
+
+## ⚙️ Methodology
+This project implements the **Recurrent Neural Network (RNN)** algorithm. The modeling approach includes evaluating the network both with and without transfer learning, alongside other architectural improvements to achieve optimal performance.
+
+## 💻 Tech Stack
+* **Language:** Python 🐍
+* **Tools:** Visual Studio Code
+
+## 🚀 Reference & Resources
+Access the trained model and view the project presentation below:
+
+- 🔗 **[Trained Model on Google Drive](https://drive.google.com/file/d/1IbvP8YsYWCVUiCknzNyXxAajjjaFfnMM/view?usp=sharing)**  
+- 📊 **[Project Presentation on Canva](https://www.canva.com/design/DAHBADencxA/3kFDskseL-g7FHfgjk7s5g/edit?utm_content=DAHBADencxA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)**
+
+---
